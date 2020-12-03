@@ -34,15 +34,21 @@ function callAPI(){
         h1.textContent = event.name
 
         const h2 = document.createElement('h2');
-        const p = document.createElement('p')
-        //event.description = event.description.substring(0, 300)
+        const p = document.createElement('p');
+
+        const image = document.createElement('img');
+        image.src  = event.image;
+
+
         h2.textContent = `${event.city}`
-        p.textContent = `${event.category}`
+        p.textContent = `${event.category} Category Event on ${event.date}`
 
         container.appendChild(card)
         card.appendChild(h1)
         card.appendChild(h2)
-        card.appendChild(p)
+        card.appendChild(p);
+        document.querySelector('.container').appendChild(image)
+
         })
     } else {
         const errorMessage = document.createElement('marquee')
