@@ -1,15 +1,14 @@
 const app = document.getElementById('root')
 
-const logo = document.createElement('img')
-logo.src = 'logo.png'
-
 const container = document.createElement('div')
 container.setAttribute('class', 'container')
 
 app.appendChild(container)
 
 var request = new XMLHttpRequest()
-request.open('GET', 'https://ghibliapi.herokuapp.com/films', true)
+
+request.open('GET', 'https://jsonplaceholder.typicode.com/photos', true);
+
 request.onload = function () {
   // Begin accessing JSON data here
   var data = JSON.parse(this.response)
@@ -22,7 +21,7 @@ request.onload = function () {
       h1.textContent = movie.title
 
       const p = document.createElement('p')
-      movie.description = movie.description.substring(0, 300)
+      //movie.description = movie.description.substring(0, 300)
       p.textContent = `${movie.description}...`
 
       container.appendChild(card)
