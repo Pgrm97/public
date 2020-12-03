@@ -1,0 +1,27 @@
+[
+    {
+        "name":"Evento 1",
+        "city":"Santo Domingo",
+        "category":"Tech"
+    },
+    {
+        "name":"Evento 2",
+        "city":"Berlin",
+        "category":"Tech"
+    },
+    {
+        "name":"Evento 3",
+        "city":"Paris",
+        "category":"Fashion"
+    },
+    {
+        "name":"Evento 4",
+        "city":"New York",
+        "category":"Food"
+    },
+    {
+        "name":"Evento 5",
+        "city":"London",
+        "category":"Food"
+    }
+]
