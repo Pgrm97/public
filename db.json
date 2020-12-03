@@ -1,29 +1,34 @@
 {
     "events":[
     {
-        "name":"Evento 1",
+        "name":"TED Santo Domingo: Combatiendo COVID-19",
         "city":"Santo Domingo",
-        "category":"Tech"
+        "category":"Tech",
+        "date":"10/5/2021"
     },
     {
-        "name":"Evento 2",
+        "name":"Koeln Messe: Wann kann dieses Virus fertig",
         "city":"Berlin",
-        "category":"Tech"
+        "category":"Tech",
+        "date":"11/6/2021"
     },
     {
-        "name":"Evento 3",
+        "name":"Tour Eiffel: Defitiv adjourd'hui",
         "city":"Paris",
-        "category":"Fashion"
+        "category":"Fashion",
+        "date":"12/7/2021"
     },
     {
-        "name":"Evento 4",
+        "name":"Google and Microsoft Team Up: Talks of the Future",
         "city":"New York",
-        "category":"Food"
+        "category":"Food",
+        "date":"13/8/2021"
     },
     {
-        "name":"Evento 5",
+        "name":"London Business School: The beginning of a new world",
         "city":"London",
-        "category":"Food"
+        "category":"Food",
+        "date":"14/9/2021"
     }
 ]
 }
