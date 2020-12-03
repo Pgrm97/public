@@ -4,30 +4,35 @@
         "name":"TED Santo Domingo: Combatiendo COVID-19",
         "city":"Santo Domingo",
         "category":"Tech",
+        "image": "https://www.cms.edu.do/system/files/TEDx%20Youth%20Santo%20Domingo%20-%204.JPG",
         "date":"10/5/2021"
     },
     {
         "name":"Koeln Messe: Wann kann dieses Virus fertig",
         "city":"Berlin",
         "category":"Tech",
+        "image": "https://www.koelnkongress.de/fileadmin/user_upload/images/keyvisuals/kv-congresscentrum-ost-koeln-1600x800.jpg",
         "date":"11/6/2021"
     },
     {
         "name":"Tour Eiffel: Defitiv adjourd'hui",
         "city":"Paris",
         "category":"Fashion",
+        "image": "https://www.sortiraparis.com/images/1001/1467/535466-la-tour-eiffel-fete-la-saint-valentin.jpg",
         "date":"12/7/2021"
     },
     {
         "name":"Google and Microsoft Team Up: Talks of the Future",
         "city":"New York",
         "category":"Food",
+        "image": "https://www.louisberger.com/sites/default/files/styles/project_slider/public/WTC-Tower-01.png?itok=Urr6_zOc",
         "date":"13/8/2021"
     },
     {
         "name":"London Business School: The beginning of a new world",
         "city":"London",
         "category":"Food",
+        "image": "https://www.thesun.co.uk/wp-content/uploads/2017/08/nintchdbpict000346492157.jpg?w=670",
         "date":"14/9/2021"
     }
 ]
